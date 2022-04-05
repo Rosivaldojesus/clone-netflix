@@ -108,3 +108,19 @@ header nav a:hover {
 .carrosel-filmes {
     margin-top: 5px;
 }
+
+
+/* Botão login */
+
+.botao-login {
+    background-color: #E50914;
+    color: white;
+
+    padding: 8px 30px;
+    margin-right: 15px;
+    font-size: 12;
+    border-radius: 5px;
+
+    cursor: pointer;
+    transition: 5s;
+}
