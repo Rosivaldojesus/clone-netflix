@@ -130,7 +130,7 @@ header nav a:hover {
 
 /* LOGIN */
 .container-login {
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/capa-house.jpg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)), url('/img/fundo-login.jpg');
 }
 
 .titulo-pagina {
@@ -216,4 +216,55 @@ header nav a:hover {
     border-radius: 5px;
     top: 10px;
     
+}
+
+footer {
+    margin-top: 40px;
+    width: 100%;
+    height: 200px;
+    background-color: #000;
+    align-items: center;
+    opacity: 0.7;
+    padding: 40px 200px;
+    border-radius: 5px;
+}
+
+.link-footer {
+    color: #fff;
+    text-decoration: none;
+    background-color: #E50914;
+    font-size: 12px;
+    width: 200px;
+}
+
+.card-link-footer{
+    display: block;
+}
+
+
+.duvidas {
+    font-size: 16px;
+    color: #AAA;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+nav a {
+    width: 180px;
+    margin-top: 15px;
+    text-decoration: none;
+    color: #AAA;
+    display: inline-flex;
+    margin-right: 80px;
+    font-size: 14px;  
+}
+
+nav a:hover {
+    width: 180px;
+    margin-top: 15px;
+
+    color: #AAA;
+    display: inline-flex;
+    margin-right: 80px;
+    font-size: 14px;  
 }
